@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('ruta/a/tu/imagen/fondo.jpg') center center;
+    background-size: cover;
+    }
+
+header {
+    background-color: rgba(14, 28, 107, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+
+/* Estilos para la sección del logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.logo img {
+    width: 80px; /* Ancho deseado para la imagen */
+    height: 80px; /* Altura automática para mantener la proporción original */
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px; /* Tamaño de fuente deseado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Agrega estos estilos al final de tu archivo CSS (app.css) */
+
+.horizontal-image {
+    text-align: center;
+    margin-top: 20px; /* Ajusta la distancia superior según sea necesario */
+}
+
+.horizontal-image img {
+    height: 600px; /* La altura se ajustará automáticamente para mantener la proporción original */
+    width: 1000px; /* Ajusta el ancho de la imagen según sea necesario */
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000) 1;
+    border-image-slice: 1;
+    border-radius: 10px; /* Ajusta el radio de borde según sea necesario */
+}
+
+nav {
+    background-color: rgba(146, 27, 27, 0.8);
+    padding: 10px;
+    text-align: center;
+    }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    }
+
+    .description {
+    text-align: center;
+    margin: 20px;
+    }
+
+    .catalog-table {
+    background-color: #5ca8f0; /* Cambia el color de fondo del formulario según sea necesario */
+    border: 1px solid #0407d3; /* Agrega un borde alrededor del formulario */
+    margin: 2px solid bottom #1aaf76 ;
+    border-top: 1px solid #030008; /* Borde superior */
+    border-bottom: 1px solid #030008; /* Borde inferior */
+    border-right: 1px solid #030008; /* Borde derecho */
+    border-left: 1px solid #030008; /* Borde izquierdo */
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+    }
+
+    .catalog-table th, .catalog-table td {
+    padding: 10px;
+    border-top: 1px solid #030008; /* Borde superior */
+    border-bottom: 1px solid #030008; /* Borde inferior */
+    border-right: 1px solid #030008; /* Borde derecho */
+    border-left: 1px solid #030008; /* Borde izquierdo */
+    text-align: left;
+    }
+
+    .catalog-table img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+    }
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    }
+
+.button-container a {
+    color: #fff;
+    background-color: #09aa2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+ /* Estilos para los formularios */
+.form-container {
+    margin: 20px; /* Ajusta la distancia entre el formulario y otros elementos */
+    padding: 20px; /* Ajusta el espacio interno del formulario */
+    background-color: #5ca8f0; /* Cambia el color de fondo del formulario según sea necesario */
+    border: 1px solid #0407d3; /* Agrega un borde alrededor del formulario */
+    border-radius: 5px; /* Agrega esquinas redondeadas al formulario */
+}
+
+/* Estilos para las etiquetas y campos de los formularios */
+.form-container label {
+    display: block; /* Muestra las etiquetas en una nueva línea */
+    margin-bottom: 10px; /* Ajusta la distancia entre las etiquetas y los campos */
+}
+
+.form-container input {
+    width: 100%; /* Hace que los campos de entrada ocupen el ancho completo del contenedor */
+    padding: 8px; /* Ajusta el espacio interno del campo de entrada */
+    margin-bottom: 15px; /* Ajusta la distancia entre los campos de entrada */
+}
+
+/* Estilos para los botones de los formularios */
+.form-container button {
+    background-color: #7e008f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
